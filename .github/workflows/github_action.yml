@@ -17,7 +17,8 @@ jobs:
 
       CLIENT_ID: ${{ secrets.CLIENT_ID }}
       AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
-
+      
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       TZ: Europe/Moscow
 
     steps:
